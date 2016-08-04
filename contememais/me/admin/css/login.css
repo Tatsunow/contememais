@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+body {
+background: #ddd;
+font-family: "Trebuchet MS";
+color: #202020;
+}
+.geral {
+width: 50%;
+margin: auto;
+margin-top: 15%;
+text-align: center;
+background: #fff;
+}
+.geral .body {
+padding: 20px;
+}
+.geral .head {
+background: #e74c3c;
+padding: 10px;
+}
+.texto {
+padding: 5px;
+border:none;
+outline: none;
+border-bottom: 1px solid #ccc;
+width: 350px;
+}
+.botao {
+background: #3498db;
+color: #fff;
+padding: 10px;
+width: 350px;
+border: none;
+cursor: pointer;
+}
+.botao:hover {
+background: #2980b9;
+}

@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;}
+body {background: #eaeaea; font-family: "Trebuchet MS"; color: #202020;}
+.login {
+background: #fff;
+width: 460px;
+margin: auto;
+text-align: center;
+margin-top: 13%;
+border: 1px solid;
+border-color: #ddd #ddd #bbb;
+border-radius: 3px;
+border-bottom: 3px solid #bbb;
+padding-bottom: 25px;
+color: #fff;
+}
+.login .header{
+width: 95.7%;
+background: #fff;
+margin: auto;
+color: #202020;
+padding: 10px;
+border-bottom: 2px solid #bbb;
+font-size: 18pt;
+}
+.login form select {
+width: 235px;
+padding: 5px;
+background: #202020;
+border: 1px solid;
+border-color: #404040 #404040 #282828;
+color: #fff;
+border-radius: 2px;
+}
+.login input[type="password"]{
+width: 220px;
+padding: 5px;
+background: #202020;
+border: 1px solid;
+border-color: #404040 #404040 #282828;
+color: #fff;
+border-radius: 2px;
+}
+.login input[type="submit"] {
+width: 40%;
+padding: 5px;
+color: #fff;
+background: #202020;
+border: 1px solid;
+border-color: #404040 #404040 #282828;
+border-radius: 2px;
+}
+.login input[type="submit"]:hover {
+background: #151515;
+cursor: pointer;
+}

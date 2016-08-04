@@ -1,0 +1,223 @@
+*{margin: 0; padding: 0;}
+body {
+background: #DFDFDF;
+font-family: roboto,Arial,sans-serif;
+}
+header {
+background: url("http://www.hdwallpapers.in/download/ratatouille-1920x1080.jpg") right center;
+width: 100%;
+color:#fff;
+padding-top: 80px;
+text-align: center;
+background-size:auto auto;
+background-repeat: no-repeat;
+
+}
+@font-face {
+ 
+ src: url("fontes/Roboto-Light.ttf");
+ font-family: roboto;
+    
+}
+
+header .nome {
+font-size: 36pt;
+color: #fff;
+}
+header .foto {
+border-radius: 100%;
+border: 2px solid #fff;
+width: 180px;
+height: 180px;
+margin: auto;
+transition: 1s all;
+-ms-transition: 1s all;
+-webkit-transition: 1s all;
+-o-transition: 1s all;
+}
+header .foto img {
+width: 180px;
+height: 180px;
+border-radius: 100%;
+}
+
+header .menu {
+padding: 10px;
+background: #fff;
+margin-top: 50px;
+}
+header .menu ul .current {
+border-bottom: 3px solid #e74c3c;
+}
+header .menu ul li {
+display: inline;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+header .menu ul li a {
+text-decoration:none;
+color: #2c3e50;
+padding: 10px;
+transition: 1s all;
+-ms-transition: 1s all;
+-webkit-transition: 1s all;
+-o-transition: 1s all;
+}
+header .menu ul li a:hover {
+color: #c0392b;
+transition: 1s all;
+-ms-transition: 1s all;
+-webkit-transition: 1s all;
+-o-transition: 1s all;
+}
+.conteudo {
+width: 60%;
+margin: auto;
+margin-top: 2%;
+color: #2c3e50;
+padding-bottom: 100px;
+}
+.texto {
+padding: 12px;
+width: 255px;
+background: #fff;
+border: none;
+outline-color: red;
+}
+.conteudo h3 {
+line-height: 40px;
+text-transform: uppercase;
+font-weight: none;
+}
+a {
+color: #3498db;
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
+header .links {
+position: absolute;
+left: 10px;
+top: 20px;
+}
+header .links ul {
+list-style: none;
+}
+header .links ul li {
+display: inline;
+}
+header .links ul li a {
+padding: 10px;
+color: #2c3e50;
+background: #fff;
+}
+header .links ul li a:hover {
+text-decoration: none;
+border-bottom: 3px solid #e74c3c;
+}
+.btn {
+padding: 12px;
+padding-right: 33px;
+padding-left: 33px;
+border: none;
+background: #fff;
+cursor: pointer;
+}
+.btn-green {
+background: #2ecc71;
+color: #fff;
+}
+.btn-green:hover {
+background: #27ae60;
+}
+.btn-red {
+background: #e74c3c;
+color: #fff;
+}
+.btn-red:hover {
+background: #c0392b;
+}
+.social {
+border-radius: 100%;
+width: 50px;
+height: 50px;
+padding: 7px;
+transition: 0.1s all;
+-ms-transition: 0.1s all;
+-webkit-transition: 0.1s all;
+-o-transition: 0.1s all;
+}
+.social:hover {
+transform: rotate(720deg) scale(1.5);
+transition: 0.3s all;
+-ms-transition: 0.3s all;
+-webkit-transition: 0.3s all;
+-o-transition: 0.3s all;
+}
+header .menu ul .drop ul{
+display: none;
+position: absolute;
+left: 0;
+margin-left: 50.5%;
+margin-top: 10px;
+list-style: none;
+background: #eaeaea;
+}
+header .menu ul .drop:hover ul {
+display: block;
+}
+header .menu ul .drop li {
+display: block;
+padding: 10px;
+}
+header .menu ul .drop li:hover {
+background: #ccc;
+}
+.code {
+background: #fff;
+font-family: "Trebuchet MS";
+width: 550px;
+height: 420px;
+border: 1px solid;
+border-color: #ddd #ddd #ccc;
+resize: none;
+color: blue;
+padding: 5px;
+}
+.postfooter {
+padding: 20px;
+padding-bottom: 150px;
+border-top: 2px solid #ccc;
+}
+.postfooter .nome {
+float: left;
+margin-top: 60px;
+margin-left: 25px;
+}
+.postfooter .fotob {
+border-radius: 100%;
+width: 150px;
+height: 150px;
+border: 3px solid #fff;
+float: left;
+}
+.postfooter .fotob img {
+width: 150px;
+height: 150px;
+border-radius: 100%;
+}
+.thumb {
+border: 2px solid #fff;
+border-radius: 2px;
+  max-width: 200px;
+  max-height: 250px;
+}
+.thumb:hover {
+transform: scale(1.5);
+transition: 0.5s all;
+-ms-transition: 0.5s all;
+-webkit-transition: 0.5s all;
+-o-transition: 0.5s all;
+}

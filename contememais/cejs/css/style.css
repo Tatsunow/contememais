@@ -1,0 +1,171 @@
+*{margin: 0; padding: 0;}
+body {
+background: url("../img/bg.jpg") left center #eaeaea no-repeat; 
+font-family: "Trebuchet MS"; 
+font-size: 13pt; 
+color: #151515;
+background-attachment: fixed;
+}
+.menu ul{
+position: fixed;
+width: 100%;
+background: #1E3856;
+border-bottom: 2px solid #062544;
+padding: 20px;
+text-align: center;
+z-index: 999;
+}
+.menu ul li {
+display: inline;
+color: #202020;
+text-decoration:none;
+padding: 20px;
+}
+.menu ul li:hover {
+background: #152B44;	
+cursor: pointer;
+}
+
+
+.menu ul li a {
+color: #fff;
+text-decoration: none;
+}
+.topico {
+color: #1C3E6B;
+text-align: center;
+font-size: 25pt;
+position: relative;
+width: 100%;
+height: 200px;
+top: 120px;
+}
+.topico a {
+text-decoration: none;
+color: #1C3E6B;
+}
+.topico a:hover {
+color: #202020;
+}
+.main {
+text-align: center;
+width: 92%;
+margin-top: 25px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.horario {
+background: #fff;
+width: 210px;
+list-style: none;
+display: inline-block;
+color: #363C5F;
+box-shadow: 2px 2px 5px #0E1A2E;
+border-radius: 4px;
+margin: 10;
+}
+.horario li {
+display:block;
+padding: 7px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.horario h3 {
+padding: 10px;
+background: #1A385C;
+color: #fff;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top: 1px solid #1A385C;
+}
+.horario li:hover {
+cursor: default;
+background: #e8e8e8;
+}
+
+.footer {
+margin-top: 120px;
+color: #fff;
+width: 100%;
+text-align: center;
+background: #1E3856;
+border-top: 2px solid #062544;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.footer ul li {display: inline; margin: 10;}
+.footer ul li a img {border-radius: 50px; width: 40px; transition:all 1s;}
+.footer ul li a img:hover {
+width: 51px;
+transition:all 1s;
+cursor: pointer;
+}
+.footer h3 {padding: 10px; }
+
+.mensagens {
+margin-top: 30px;
+background: transparent;
+border: 0;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.mensagens .mensagem {
+background: #eaeaea;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+border-radius: 3px;
+margin: 5;
+}
+.mensagens .mensagem h4 {
+}
+.mensagens .mensagem span {
+color: #202020;
+text-indent: 10px;
+}
+.send form input[type="text"]{
+background: #fff;
+padding: 6px;
+border-radius: 3px;
+border: 1px solid;
+border-color: #ccc #ccc #bbb;
+width: 70%;
+}
+.send form input[type="submit"]{
+background: #eaeaea;
+padding: 15px;
+width: 130px;
+border: 0;
+cursor: pointer;
+border-radius: 3px;
+}
+.send form input[type="submit"]:hover {
+background: #ccc;
+}
+.send form textarea {
+width: 70%;
+padding: 6px;
+border-radius: 3px;
+border: 1px solid;
+border-color: #ccc #ccc #bbb;
+font-family: "Trebuchet MS";
+height: 80px;
+resize:none;
+}
+.send {
+margin-top: 40px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+width: 89%;
+margin-left: auto;
+margin-right: auto;
+}
+.credit {
+position: absolute;
+width: 500px;
+height: 20px;
+left: 1;
+}

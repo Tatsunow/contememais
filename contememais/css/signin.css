@@ -1,0 +1,74 @@
+body {
+background: #202020;   
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*{
+margin:0;
+padding:0;
+}
+.login {
+background: #fff;
+width: 420px;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 11%;
+height: auto;
+padding-bottom: 50px;
+box-shadow: 1px 5px 5px #141414;
+border-radius: 3px;
+}
+.login .header {
+background: #0B90E3;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+margin-top: 20px;
+color: white;
+font-size: 20pt;
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+border-bottom: 1px solid #0077FF;
+}
+.login .fo {
+margin-top: 10%;
+color: white;
+}
+.login .fo button{
+padding: 13px;
+border: none;
+background:#0B90E3;
+padding-right: 30px;
+padding-left: 30px;
+margin-top: 10px;
+color: white;
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.login .fo button:hover {
+background: #0868A3;
+cursor: pointer;
+}
+.login .fo input[type="text"],input[type="password"] {
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+background: #eaeaea;
+border: none;
+border-spacing: 20px;
+padding: 9px;
+margin-top: 10px;
+width: 70%;
+}
+#msg {
+color: #202020;
+margin-top: 30px;
+border: 1px solid;
+border-radius: 2px;
+padding-top: 13px;
+padding-bottom: 13px;
+padding-right: 10px;
+padding-left: 10px;
+background: #42A7FF;
+border-color: #0B67B8 #0B67B8 #044985;
+width: 87%;
+margin-left: auto;
+margin-right: auto;
+}

@@ -1,0 +1,162 @@
+*{margin: 0; padding: 0;}
+body {
+    background: #fff;
+    color: #202020;
+    font-family: roboto,"Arial";
+    display:none;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+}
+
+
+
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: darkred;
+}
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+   background: #ccc;
+
+
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+   background: red;
+   width: 3px;
+   border-radius: 40px;
+}
+@font-face {
+
+   src: url("fonts/Roboto-Light.ttf");
+   font-family: roboto;
+
+}
+
+header img {
+
+   width: 180px;
+   border-radius: 100%;
+   border: 2px solid #fff;
+
+}
+::selection {
+
+ background: rgba(250, 0, 0, 0.71);
+ color: #fff;
+ line-height: 35px
+
+}
+
+header {
+
+   width: 100%;
+   padding-top: 75px;
+   padding-bottom: 40px;
+   background: url("http://www.hdwallpapers.in/download/rose_garden-1920x1080.jpg");
+   text-align: center;
+   color: #fff;
+ 
+
+}
+
+header .status {
+
+	padding: 10px;
+	background: rgba(255, 2, 242, 0.70);
+	margin-top: 20px;
+	font-size: 16pt;
+	border-radius: 5px;
+}
+.conteudo {
+
+   margin: auto;
+   margin-top: 20px;
+   width:85%;
+   text-align: center;
+   height:auto;
+   padding-bottom: 45px;
+
+}
+.foto {
+
+   width: 350px;
+   display: inline-block;
+   margin-left: 30px;
+
+}
+.foto .imag {
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.foto .desc {
+
+   background: rgba(0,0,0,0.50);
+   position: relative;
+   color: #fff;
+   top: -80px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   width: 100%;
+
+}
+
+.foto .desc img {
+
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 13px;
+    right: 40px;
+
+}
+
+.contact {
+
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.contact:hover {
+
+  transform: scale(1.5);
+
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	padding-top: 50px;
+ 	padding-bottom: 50px;
+    background: url("http://www.hdwallpapers.in/download/rose_garden-1920x1080.jpg");
+	color: #fff;
+    text-align: center;
+}
+a {
+	color: #aae;
+	text-decoration: none;
+}
+a:hover {
+
+    text-decoration: underline;
+
+}
+.tats::selection {
+    
+    background: rgba(255, 242, 0, 1);
+    color: #fff;
+    
+}

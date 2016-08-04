@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Eliete Moraes</title>
+
+	<meta charset="utf-8"/>
+
+	<meta name="og:title" content="Bloguizinho da lieti"/>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<script src="js/jquery.js"></script>
+
+	<script>
+
+$(document).ready(function() {
+
+ $("body").fadeIn(500);
+
+ $(".menu-fix li a, .menu-top li a").click(function(event){
+
+ event.preventDefault();
+
+ linkLocation = this.href;
+
+ $("body").css('overflow', 'hidden').fadeOut(500, redirectPage);
+
+ });
+
+ 
+
+ function redirectPage() {
+
+ window.location = linkLocation;
+
+ }
+
+ 
+
+});
+
+	</script>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/10959477_419260244905883_4278844096727247944_n.jpg?oh=9749a8534fc465b0211a339d9fa29fdc&oe=55D28AA8"/>
+
+<h1>Eliete Moraes</h1>
+
+<br />
+
+<span class="status">Solteira</span>
+
+</header>
+
+<div class="conteudo">
+
+
+
+<h1>Fotos</h1>
+
+<p>
+
+Minhas fotos:<br/><br />
+
+<div class="foto">
+
+
+
+    <img class="imag" src="css/fotos/foto1.jpg"/>
+
+    <div class="desc">
+
+      Eu indo para uma festa.
+
+      <img src="http://c1.thejournal.ie/media/2014/03/persons-0008_large.png"/>
+
+    </div>
+
+
+
+</div>
+
+<div class="foto">
+
+
+
+    <img class="imag" src="css/fotos/foto4.jpg"/>
+
+    <div class="desc">
+
+      Minha Cachorra Iolly.
+
+      <img src="http://cdn.shopify.com/s/files/1/0185/5092/products/persons-0012_large.png?v=1369543516"/>
+
+    </div>
+
+
+
+</div>
+
+
+
+<div class="foto">
+
+
+
+    <img class="imag" src="css/fotos/foto5.jpg"/>
+
+    <div class="desc">
+
+     Eu e meu pai.
+
+      <img src="http://cdn.shopify.com/s/files/1/0185/5092/products/persons-0012_large.png?v=1369543516"/>
+
+    </div>
+
+
+
+</div>
+
+
+
+<div class="foto">
+
+
+
+    <img class="imag" src="css/fotos/foto3.jpg"/>
+
+    <div class="desc">
+
+     Eu e a minha sobrinha.
+
+      <img src="http://cdn.shopify.com/s/files/1/0185/5092/products/persons-0012_large.png?v=1369543516"/>
+
+    </div>
+
+
+
+</div>
+
+</p>
+
+<h1>Sobre</h1>
+
+<p>
+
+Sou de Jandaia do Sul, Paraná.
+
+<br /><br /><br />
+
+
+
+<h1>Contato</h1>
+
+<p>
+
+<a target="_blank" href="https://www.facebook.com/elietemoraes.braga.5?fref=ts"><img class="contact" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png"/></a>
+
+<a href="javascript: prompt('Numero WhatsApp', '96184282');"><img class="contact" src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-1.png"/></a>
+
+</p>
+
+<br />
+
+</div>
+
+<div class="footer">
+
+Site desenvolvido por <a class="tats" target="_blank" href="http://facebook.com/tatsunowthiago">Thiago Tatsunow</a>.
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+*{margin: 0; padding: 0;}
+body {
+background: #fff;
+font-family:"Trebuchet MS",tahoma,Arial;
+color: #202020;
+width: 1800px;
+max-width: 1800px;
+}
+.header {
+background: url("../imagens/head.jpg");
+background-repeat: no-repeat;
+width: 1365px;
+height: 192px;
+position: absolute;
+}
+.header .buttons {
+position: absolute;
+margin: 190px;
+margin-top: 90px;
+}
+.texto{
+padding: 9px 12px;
+border-radius: 5px;
+border: 0;
+width: 372px;
+background: url("../imagens/pesquisaInput.png") no-repeat left top;
+color: #A5A5A5;
+}
+.header .buttons input[type="submit"] {
+background: #fff;
+cursor: pointer;
+background: url("../imagens/pesquisaButton.png") no-repeat left top;
+width: 117px;
+border: 0;
+color: transparent;
+height: 34px;
+margin-left: -10px;
+}
+.header .bgto {
+background: url("../imagens/banner.jpg") no-repeat center top #000;
+width: 100%;
+height: 128px;
+text-align: center;
+margin-top: 186px;
+border-top: 4px solid #690202;
+}
+.header .bgto .to {
+color: #202020;
+font-size: 18pt;
+background: rgba(255, 29, 0, 0.56);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+float: left;
+width: 100%;
+margin-top: -79px;
+border: 0;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid #aaa;
+color: white;
+}
+.header .name {
+float: left;
+margin: 190px;
+margin-top: 30px;
+font-size: 30pt;
+font-weight: bold;
+text-transform: uppercase;
+width: auto;
+color: #FF2A00;
+}
+.header a {
+color: #202020;
+text-decoration: none;
+}
+.header .menu {
+position: absolute;
+top: 143px;
+left: 0;
+text-align: center;
+text-transform: uppercase;
+font-family: fantasy;
+width: 100%;
+}
+.header .menu a {
+color: #fff;
+font-size: 23pt;
+padding: 10px;
+}
+.header .menu a:hover {
+text-decoration: underline;
+}
+.geral {
+position: relative;
+top: 50px;
+left: 10px;
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+.geral .leftItems {
+background: #fff;
+height: auto;
+width: 168px;
+text-align: left;
+padding: 10px;
+border-radius: 7px;
+border: 1px solid;
+border-color: #ddd #ddd #ddd;
+}
+.geral .leftItems a {
+display: block;
+color: #505050;
+text-indent: 20px;
+padding-top: 9px;
+padding-bottom: 9px;
+text-decoration: none;
+}
+.geral .leftItems a:hover {
+color: #202020;
+}
+.geral .leftItems h3 {
+text-align:center;
+background: url("../imagens/lore.png") no-repeat left top;
+padding: 7px 0 13px;
+position: relative;
+height: 27px;
+font-family: 'Trebuchet MS', Trebuchet, sans-serif;
+text-transform: uppercase;
+color: white;
+left: -20px;
+width: 208px;
+float: left;
+}
+.geral .conteudo {
+background: #fff;
+position: absolute;
+color: #202020;
+float:left;
+left: 220px;
+top: -12px;
+padding: 17px;
+width: 76%;
+height: auto;
+padding-bottom: 20px;
+
+}
+.geral .conteudo .local {
+border-bottom: 1px solid #ddd;
+padding: 5px;
+width: 100%;
+}
+.geral .conteudo .local a span{
+color: red;
+}
+.geral .conteudo .local a {
+color:red;
+text-decoration: none;
+}
+.geral .conteudo .local a:hover {
+text-decoration: underline;
+}
+.geral .conteudo .local a .atual {
+font-weight: bold;
+}
+.geral .conteudo .local .sy {
+font-weight:bold;
+font-size: 15pt;
+}
+.header .links {
+float: right;
+position: relative;
+margin: 30px;
+border-bottom: 1px solid #ccc;
+padding: 5px;
+font-family: "Tahoma";
+}
+.header .links a {
+text-decoration: none;
+display: inline-block;
+color: #FF2A00;
+font-family: inherit;
+font-size: 16pt;
+margin: 5px;
+text-transform: uppercase;
+}
+.header .links a:hover {
+text-decoration: underline;
+}
+.header .links .dot {
+background: url("../imagens/dot.png") no-repeat center;
+display: inline;
+width: 32px;
+padding: 10px;
+}
+.geral .conteudo .autor {
+margin-top: 20px;
+border-top: 1px solid #ddd;
+}
+.blink {
+color: #00B7FF;
+text-decoration: underline;
+}
+.blink:hover {
+text-decoration: underline;
+color: #007BFF;
+}
